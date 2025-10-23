@@ -1,0 +1,24 @@
+[2.459s] Invoking command in '/home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup': /usr/bin/cmake /home/lx/rbi_2025/rov/rov_ws/src/rov_real_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup
+[2.511s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.263s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.308s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[3.502s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.516s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.549s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.599s] [31mCMake Error at /opt/ros/humble/share/rosidl_typesupport_c/cmake/get_used_typesupports.cmake:35 (message):
+[3.600s]   No 'rosidl_typesupport_c' found
+[3.600s] Call Stack (most recent call first):
+[3.601s]   /opt/ros/humble/share/rosidl_typesupport_c/cmake/rosidl_typesupport_c-extras.cmake:8 (get_used_typesupports)
+[3.601s]   /opt/ros/humble/share/rosidl_typesupport_c/cmake/rosidl_typesupport_cConfig.cmake:41 (include)
+[3.602s]   /opt/ros/humble/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[3.603s]   /opt/ros/humble/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)
+[3.603s]   /opt/ros/humble/share/libstatistics_collector/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[3.604s]   /opt/ros/humble/share/libstatistics_collector/cmake/libstatistics_collectorConfig.cmake:41 (include)
+[3.604s]   /opt/ros/humble/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[3.605s]   /opt/ros/humble/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)
+[3.607s]   CMakeLists.txt:10 (find_package)
+[3.608s] 
+[3.610s] [0m
+[3.611s] -- Configuring incomplete, errors occurred!
+[3.613s] See also "/home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup/CMakeFiles/CMakeOutput.log".
+[3.639s] Invoked command in '/home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup' returned '1': /usr/bin/cmake /home/lx/rbi_2025/rov/rov_ws/src/rov_real_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup

@@ -1,0 +1,17 @@
+[6.140s] Invoking command in '/home/lx/rbi_2025/rov/rov_ws/build/direct_control': PYTHONPATH=/home/lx/rbi_2025/rov/rov_ws/build/direct_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lx/rbi_2025/rov/rov_ws/install/direct_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lx/rbi_2025/rov/rov_ws/build/direct_control/build --no-deps symlink_data
+[8.486s] running develop
+[9.530s] running egg_info
+[9.531s] writing direct_control.egg-info/PKG-INFO
+[9.532s] writing dependency_links to direct_control.egg-info/dependency_links.txt
+[9.534s] writing entry points to direct_control.egg-info/entry_points.txt
+[9.536s] writing requirements to direct_control.egg-info/requires.txt
+[9.536s] writing top-level names to direct_control.egg-info/top_level.txt
+[9.545s] reading manifest file 'direct_control.egg-info/SOURCES.txt'
+[9.551s] writing manifest file 'direct_control.egg-info/SOURCES.txt'
+[9.558s] running build_ext
+[9.559s] Creating /home/lx/rbi_2025/rov/rov_ws/install/direct_control/lib/python3.10/site-packages/direct-control.egg-link (link to .)
+[9.564s] Installing direct_control script to /home/lx/rbi_2025/rov/rov_ws/install/direct_control/lib/direct_control
+[9.567s] 
+[9.567s] Installed /home/lx/rbi_2025/rov/rov_ws/build/direct_control
+[9.567s] running symlink_data
+[9.845s] Invoked command in '/home/lx/rbi_2025/rov/rov_ws/build/direct_control' returned '0': PYTHONPATH=/home/lx/rbi_2025/rov/rov_ws/build/direct_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lx/rbi_2025/rov/rov_ws/install/direct_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lx/rbi_2025/rov/rov_ws/build/direct_control/build --no-deps symlink_data

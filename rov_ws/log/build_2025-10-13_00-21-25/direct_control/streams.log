@@ -1,0 +1,30 @@
+[5.808s] Invoking command in '/home/lx/rbi_2025/rov/rov_ws/build/direct_control': PYTHONPATH=/home/lx/rbi_2025/rov/rov_ws/build/direct_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lx/rbi_2025/rov/rov_ws/install/direct_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lx/rbi_2025/rov/rov_ws/build/direct_control/build --no-deps symlink_data
+[7.751s] running develop
+[8.832s] running egg_info
+[8.833s] creating direct_control.egg-info
+[8.835s] writing direct_control.egg-info/PKG-INFO
+[8.840s] writing dependency_links to direct_control.egg-info/dependency_links.txt
+[8.846s] writing entry points to direct_control.egg-info/entry_points.txt
+[8.849s] writing requirements to direct_control.egg-info/requires.txt
+[8.855s] writing top-level names to direct_control.egg-info/top_level.txt
+[8.857s] writing manifest file 'direct_control.egg-info/SOURCES.txt'
+[8.867s] reading manifest file 'direct_control.egg-info/SOURCES.txt'
+[8.872s] writing manifest file 'direct_control.egg-info/SOURCES.txt'
+[8.885s] running build_ext
+[8.886s] Creating /home/lx/rbi_2025/rov/rov_ws/install/direct_control/lib/python3.10/site-packages/direct-control.egg-link (link to .)
+[8.893s] Installing direct_control script to /home/lx/rbi_2025/rov/rov_ws/install/direct_control/lib/direct_control
+[8.897s] 
+[8.898s] Installed /home/lx/rbi_2025/rov/rov_ws/build/direct_control
+[8.901s] running symlink_data
+[8.903s] creating /home/lx/rbi_2025/rov/rov_ws/install/direct_control/share/ament_index
+[8.908s] creating /home/lx/rbi_2025/rov/rov_ws/install/direct_control/share/ament_index/resource_index
+[8.909s] creating /home/lx/rbi_2025/rov/rov_ws/install/direct_control/share/ament_index/resource_index/packages
+[8.910s] symbolically linking /home/lx/rbi_2025/rov/rov_ws/build/direct_control/resource/direct_control -> /home/lx/rbi_2025/rov/rov_ws/install/direct_control/share/ament_index/resource_index/packages
+[8.912s] symbolically linking /home/lx/rbi_2025/rov/rov_ws/build/direct_control/package.xml -> /home/lx/rbi_2025/rov/rov_ws/install/direct_control/share/direct_control
+[8.914s] creating /home/lx/rbi_2025/rov/rov_ws/install/direct_control/share/direct_control/launch
+[8.916s] symbolically linking /home/lx/rbi_2025/rov/rov_ws/build/direct_control/launch/raw_teleop_launch.launch.py -> /home/lx/rbi_2025/rov/rov_ws/install/direct_control/share/direct_control/launch
+[8.918s] creating /home/lx/rbi_2025/rov/rov_ws/install/direct_control/share/direct_control/descriptions
+[8.920s] creating /home/lx/rbi_2025/rov/rov_ws/install/direct_control/share/direct_control/config
+[8.922s] symbolically linking /home/lx/rbi_2025/rov/rov_ws/build/direct_control/config/joystick.yaml -> /home/lx/rbi_2025/rov/rov_ws/install/direct_control/share/direct_control/config
+[8.924s] symbolically linking /home/lx/rbi_2025/rov/rov_ws/build/direct_control/config/mux.yaml -> /home/lx/rbi_2025/rov/rov_ws/install/direct_control/share/direct_control/config
+[9.190s] Invoked command in '/home/lx/rbi_2025/rov/rov_ws/build/direct_control' returned '0': PYTHONPATH=/home/lx/rbi_2025/rov/rov_ws/build/direct_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lx/rbi_2025/rov/rov_ws/install/direct_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lx/rbi_2025/rov/rov_ws/build/direct_control/build --no-deps symlink_data

@@ -1,0 +1,88 @@
+[0.000000] (-) TimerEvent: {}
+[0.001839] (direct_control) JobQueued: {'identifier': 'direct_control', 'dependencies': OrderedDict()}
+[0.002519] (rov_attitude_controller) JobQueued: {'identifier': 'rov_attitude_controller', 'dependencies': OrderedDict()}
+[0.002949] (rov_real_bringup) JobQueued: {'identifier': 'rov_real_bringup', 'dependencies': OrderedDict()}
+[0.003136] (direct_control) JobStarted: {'identifier': 'direct_control'}
+[0.027445] (rov_attitude_controller) JobStarted: {'identifier': 'rov_attitude_controller'}
+[0.044258] (rov_real_bringup) JobStarted: {'identifier': 'rov_real_bringup'}
+[0.098994] (-) TimerEvent: {}
+[0.199706] (-) TimerEvent: {}
+[0.300513] (-) TimerEvent: {}
+[0.401334] (-) TimerEvent: {}
+[0.502109] (-) TimerEvent: {}
+[0.602975] (-) TimerEvent: {}
+[0.703655] (-) TimerEvent: {}
+[0.804388] (-) TimerEvent: {}
+[0.905185] (-) TimerEvent: {}
+[1.005917] (-) TimerEvent: {}
+[1.106642] (-) TimerEvent: {}
+[1.207488] (-) TimerEvent: {}
+[1.308507] (-) TimerEvent: {}
+[1.409294] (-) TimerEvent: {}
+[1.510023] (-) TimerEvent: {}
+[1.610750] (-) TimerEvent: {}
+[1.714350] (-) TimerEvent: {}
+[1.815055] (-) TimerEvent: {}
+[1.915764] (-) TimerEvent: {}
+[2.016517] (-) TimerEvent: {}
+[2.117277] (-) TimerEvent: {}
+[2.218011] (-) TimerEvent: {}
+[2.318737] (-) TimerEvent: {}
+[2.419605] (-) TimerEvent: {}
+[2.490508] (rov_real_bringup) JobProgress: {'identifier': 'rov_real_bringup', 'progress': 'cmake'}
+[2.494283] (rov_real_bringup) Command: {'cmd': ['/usr/bin/cmake', '/home/lx/rbi_2025/rov/rov_ws/src/rov_real_bringup', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup'], 'cwd': '/home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lx'), ('SSH_CLIENT', '10.148.86.157 53176 22'), ('LC_TIME', 'es_CO.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/lx'), ('OLDPWD', '/home/lx'), ('SSH_TTY', '/dev/pts/0'), ('LC_MONETARY', 'es_CO.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LOGNAME', 'lx'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('PWD', '/home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.148.86.157 53176 10.148.86.37 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[2.522130] (-) TimerEvent: {}
+[2.555581] (rov_real_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.622339] (-) TimerEvent: {}
+[2.723308] (-) TimerEvent: {}
+[2.824434] (-) TimerEvent: {}
+[2.933405] (-) TimerEvent: {}
+[3.034458] (-) TimerEvent: {}
+[3.135329] (-) TimerEvent: {}
+[3.236217] (-) TimerEvent: {}
+[3.306933] (rov_real_bringup) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.336399] (-) TimerEvent: {}
+[3.351918] (rov_real_bringup) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.436611] (-) TimerEvent: {}
+[3.538164] (-) TimerEvent: {}
+[3.546412] (rov_real_bringup) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.560098] (rov_real_bringup) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.592733] (rov_real_bringup) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.638358] (-) TimerEvent: {}
+[3.642561] (rov_real_bringup) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_typesupport_c/cmake/get_used_typesupports.cmake:35 (message):\n'}
+[3.643884] (rov_real_bringup) StderrLine: {'line': b"  No 'rosidl_typesupport_c' found\n"}
+[3.644875] (rov_real_bringup) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.645551] (rov_real_bringup) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_typesupport_c/cmake/rosidl_typesupport_c-extras.cmake:8 (get_used_typesupports)\n'}
+[3.646045] (rov_real_bringup) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_typesupport_c/cmake/rosidl_typesupport_cConfig.cmake:41 (include)\n'}
+[3.646471] (rov_real_bringup) StderrLine: {'line': b'  /opt/ros/humble/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[3.647031] (rov_real_bringup) StderrLine: {'line': b'  /opt/ros/humble/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)\n'}
+[3.647763] (rov_real_bringup) StderrLine: {'line': b'  /opt/ros/humble/share/libstatistics_collector/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[3.648326] (rov_real_bringup) StderrLine: {'line': b'  /opt/ros/humble/share/libstatistics_collector/cmake/libstatistics_collectorConfig.cmake:41 (include)\n'}
+[3.648916] (rov_real_bringup) StderrLine: {'line': b'  /opt/ros/humble/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[3.649599] (rov_real_bringup) StderrLine: {'line': b'  /opt/ros/humble/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)\n'}
+[3.650711] (rov_real_bringup) StderrLine: {'line': b'  CMakeLists.txt:10 (find_package)\n'}
+[3.652077] (rov_real_bringup) StderrLine: {'line': b'\n'}
+[3.653775] (rov_real_bringup) StderrLine: {'line': b'\x1b[0m\n'}
+[3.655505] (rov_real_bringup) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.656627] (rov_real_bringup) StdoutLine: {'line': b'See also "/home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup/CMakeFiles/CMakeOutput.log".\n'}
+[3.682975] (rov_real_bringup) CommandEnded: {'returncode': 1}
+[3.738541] (-) TimerEvent: {}
+[3.748894] (rov_real_bringup) JobEnded: {'identifier': 'rov_real_bringup', 'rc': 1}
+[3.838777] (-) TimerEvent: {}
+[3.940285] (-) TimerEvent: {}
+[4.041614] (-) TimerEvent: {}
+[4.142393] (-) TimerEvent: {}
+[4.243416] (-) TimerEvent: {}
+[4.344966] (-) TimerEvent: {}
+[4.446114] (-) TimerEvent: {}
+[4.546909] (-) TimerEvent: {}
+[4.647817] (-) TimerEvent: {}
+[4.748683] (-) TimerEvent: {}
+[4.850138] (-) TimerEvent: {}
+[4.951050] (-) TimerEvent: {}
+[5.052098] (-) TimerEvent: {}
+[5.154376] (-) TimerEvent: {}
+[5.256416] (-) TimerEvent: {}
+[5.314798] (direct_control) JobEnded: {'identifier': 'direct_control', 'rc': 'SIGINT'}
+[5.316384] (rov_attitude_controller) JobEnded: {'identifier': 'rov_attitude_controller', 'rc': 'SIGINT'}
+[5.326425] (-) EventReactorShutdown: {}

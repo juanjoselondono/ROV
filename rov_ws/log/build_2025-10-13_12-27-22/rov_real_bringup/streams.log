@@ -1,0 +1,24 @@
+[3.181s] Invoking command in '/home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller:/home/lx/rbi_2025/rov/rov_ws/install/direct_control:/opt/ros/humble /usr/bin/cmake --build /home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup -- -j4 -l4
+[3.499s] Invoked command in '/home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller:/home/lx/rbi_2025/rov/rov_ws/install/direct_control:/opt/ros/humble /usr/bin/cmake --build /home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup -- -j4 -l4
+[3.546s] Invoking command in '/home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller:/home/lx/rbi_2025/rov/rov_ws/install/direct_control:/opt/ros/humble /usr/bin/cmake --install /home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup
+[3.584s] -- Install configuration: ""
+[3.588s] -- Execute custom install script
+[3.590s] -- Up-to-date symlink: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup//config/rov_controllers.yaml
+[3.597s] -- Up-to-date symlink: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup//config/rviz_config.rviz
+[3.599s] -- Up-to-date symlink: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup//launch/rov_bringup_launch.launch.xml
+[3.600s] -- Up-to-date symlink: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/ament_index/resource_index/package_run_dependencies/rov_real_bringup
+[3.600s] -- Up-to-date symlink: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/ament_index/resource_index/parent_prefix_path/rov_real_bringup
+[3.603s] -- Up-to-date symlink: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/environment/ament_prefix_path.sh
+[3.606s] -- Up-to-date symlink: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/environment/ament_prefix_path.dsv
+[3.606s] -- Up-to-date symlink: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/environment/path.sh
+[3.609s] -- Up-to-date symlink: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/environment/path.dsv
+[3.610s] -- Up-to-date symlink: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/local_setup.bash
+[3.612s] -- Up-to-date symlink: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/local_setup.sh
+[3.613s] -- Up-to-date symlink: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/local_setup.zsh
+[3.614s] -- Up-to-date symlink: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/local_setup.dsv
+[3.615s] -- Symlinking: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/package.dsv
+[3.658s] -- Up-to-date symlink: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/ament_index/resource_index/packages/rov_real_bringup
+[3.665s] -- Up-to-date symlink: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/cmake/rov_real_bringupConfig.cmake
+[3.667s] -- Up-to-date symlink: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/cmake/rov_real_bringupConfig-version.cmake
+[3.670s] -- Up-to-date symlink: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/package.xml
+[3.671s] Invoked command in '/home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller:/home/lx/rbi_2025/rov/rov_ws/install/direct_control:/opt/ros/humble /usr/bin/cmake --install /home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup

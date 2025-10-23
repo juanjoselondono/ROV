@@ -1,0 +1,17 @@
+[6.100s] Invoking command in '/home/lx/rbi_2025/rov/rov_ws/build/rov_attitude_controller': PYTHONPATH=/home/lx/rbi_2025/rov/rov_ws/build/rov_attitude_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lx/rbi_2025/rov/rov_ws/build/rov_attitude_controller/build --no-deps symlink_data
+[8.453s] running develop
+[9.491s] running egg_info
+[9.492s] writing rov_attitude_controller.egg-info/PKG-INFO
+[9.493s] writing dependency_links to rov_attitude_controller.egg-info/dependency_links.txt
+[9.494s] writing entry points to rov_attitude_controller.egg-info/entry_points.txt
+[9.495s] writing requirements to rov_attitude_controller.egg-info/requires.txt
+[9.497s] writing top-level names to rov_attitude_controller.egg-info/top_level.txt
+[9.507s] reading manifest file 'rov_attitude_controller.egg-info/SOURCES.txt'
+[9.514s] writing manifest file 'rov_attitude_controller.egg-info/SOURCES.txt'
+[9.521s] running build_ext
+[9.523s] Creating /home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller/lib/python3.10/site-packages/rov-attitude-controller.egg-link (link to .)
+[9.531s] Installing rov_attitude_controller script to /home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller/lib/rov_attitude_controller
+[9.535s] 
+[9.536s] Installed /home/lx/rbi_2025/rov/rov_ws/build/rov_attitude_controller
+[9.537s] running symlink_data
+[9.845s] Invoked command in '/home/lx/rbi_2025/rov/rov_ws/build/rov_attitude_controller' returned '0': PYTHONPATH=/home/lx/rbi_2025/rov/rov_ws/build/rov_attitude_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lx/rbi_2025/rov/rov_ws/build/rov_attitude_controller/build --no-deps symlink_data

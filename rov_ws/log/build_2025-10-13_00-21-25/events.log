@@ -1,0 +1,251 @@
+[0.000000] (-) TimerEvent: {}
+[0.001273] (direct_control) JobQueued: {'identifier': 'direct_control', 'dependencies': OrderedDict()}
+[0.001500] (rov_attitude_controller) JobQueued: {'identifier': 'rov_attitude_controller', 'dependencies': OrderedDict()}
+[0.001771] (rov_real_bringup) JobQueued: {'identifier': 'rov_real_bringup', 'dependencies': OrderedDict()}
+[0.001950] (direct_control) JobStarted: {'identifier': 'direct_control'}
+[0.037115] (rov_attitude_controller) JobStarted: {'identifier': 'rov_attitude_controller'}
+[0.065087] (rov_real_bringup) JobStarted: {'identifier': 'rov_real_bringup'}
+[0.097978] (-) TimerEvent: {}
+[0.198857] (-) TimerEvent: {}
+[0.299798] (-) TimerEvent: {}
+[0.400819] (-) TimerEvent: {}
+[0.501497] (-) TimerEvent: {}
+[0.602226] (-) TimerEvent: {}
+[0.703196] (-) TimerEvent: {}
+[0.803840] (-) TimerEvent: {}
+[0.904615] (-) TimerEvent: {}
+[1.005282] (-) TimerEvent: {}
+[1.106015] (-) TimerEvent: {}
+[1.206743] (-) TimerEvent: {}
+[1.307398] (-) TimerEvent: {}
+[1.408205] (-) TimerEvent: {}
+[1.509449] (-) TimerEvent: {}
+[1.610418] (-) TimerEvent: {}
+[1.711259] (-) TimerEvent: {}
+[1.812266] (-) TimerEvent: {}
+[1.912943] (-) TimerEvent: {}
+[2.013579] (-) TimerEvent: {}
+[2.114248] (-) TimerEvent: {}
+[2.214875] (-) TimerEvent: {}
+[2.315490] (-) TimerEvent: {}
+[2.416139] (-) TimerEvent: {}
+[2.516800] (-) TimerEvent: {}
+[2.617488] (-) TimerEvent: {}
+[2.718182] (-) TimerEvent: {}
+[2.818860] (-) TimerEvent: {}
+[2.919568] (-) TimerEvent: {}
+[3.020408] (-) TimerEvent: {}
+[3.021451] (rov_real_bringup) JobProgress: {'identifier': 'rov_real_bringup', 'progress': 'cmake'}
+[3.024193] (rov_real_bringup) Command: {'cmd': ['/usr/bin/cmake', '/home/lx/rbi_2025/rov/rov_ws/src/rov_real_bringup', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup'], 'cwd': '/home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lx'), ('SSH_CLIENT', '10.148.86.157 49528 22'), ('LC_TIME', 'es_CO.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/lx'), ('OLDPWD', '/home/lx'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'es_CO.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/lx/rbi_2025/rov/rov_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lx'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup:/home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller:/home/lx/rbi_2025/rov/rov_ws/install/direct_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('PWD', '/home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.148.86.157 49528 10.148.86.37 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller/lib/python3.10/site-packages:/home/lx/rbi_2025/rov/rov_ws/install/direct_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup:/home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller:/home/lx/rbi_2025/rov/rov_ws/install/direct_control:/opt/ros/humble')]), 'shell': False}
+[3.120638] (-) TimerEvent: {}
+[3.221583] (-) TimerEvent: {}
+[3.322403] (-) TimerEvent: {}
+[3.423672] (-) TimerEvent: {}
+[3.474869] (rov_real_bringup) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[3.523794] (-) TimerEvent: {}
+[3.624707] (-) TimerEvent: {}
+[3.725592] (-) TimerEvent: {}
+[3.826573] (-) TimerEvent: {}
+[3.927440] (-) TimerEvent: {}
+[4.028270] (-) TimerEvent: {}
+[4.113173] (rov_real_bringup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[4.129178] (-) TimerEvent: {}
+[4.149822] (rov_real_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.229447] (-) TimerEvent: {}
+[4.331576] (-) TimerEvent: {}
+[4.433801] (-) TimerEvent: {}
+[4.536211] (-) TimerEvent: {}
+[4.553336] (rov_real_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.591352] (rov_real_bringup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.595130] (rov_real_bringup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.599348] (rov_real_bringup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.622050] (rov_real_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.636429] (-) TimerEvent: {}
+[4.738113] (-) TimerEvent: {}
+[4.840001] (-) TimerEvent: {}
+[4.941515] (-) TimerEvent: {}
+[5.044530] (-) TimerEvent: {}
+[5.147340] (-) TimerEvent: {}
+[5.176972] (rov_real_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.204467] (rov_real_bringup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.207800] (rov_real_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.215583] (rov_real_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.247514] (-) TimerEvent: {}
+[5.290845] (rov_real_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[5.347879] (-) TimerEvent: {}
+[5.451114] (-) TimerEvent: {}
+[5.553854] (-) TimerEvent: {}
+[5.657104] (-) TimerEvent: {}
+[5.760994] (-) TimerEvent: {}
+[5.774185] (rov_attitude_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/lx/rbi_2025/rov/rov_ws/build/rov_attitude_controller/build', '--no-deps', 'symlink_data'], 'cwd': '/home/lx/rbi_2025/rov/rov_ws/build/rov_attitude_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lx', 'SSH_CLIENT': '10.148.86.157 49528 22', 'LC_TIME': 'es_CO.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/lx', 'OLDPWD': '/home/lx', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'es_CO.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/lx/rbi_2025/rov/rov_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'lx', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'es_CO.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'es_CO.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup:/home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller:/home/lx/rbi_2025/rov/rov_ws/install/direct_control:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_CO.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_CO.UTF-8', 'LC_IDENTIFICATION': 'es_CO.UTF-8', 'PWD': '/home/lx/rbi_2025/rov/rov_ws/build/rov_attitude_controller', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.148.86.157 49528 10.148.86.37 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/lx/rbi_2025/rov/rov_ws/build/rov_attitude_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller/lib/python3.10/site-packages:/home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller/lib/python3.10/site-packages:/home/lx/rbi_2025/rov/rov_ws/install/direct_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_CO.UTF-8', 'LC_PAPER': 'es_CO.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup'}, 'shell': False}
+[5.807865] (direct_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/lx/rbi_2025/rov/rov_ws/build/direct_control/build', '--no-deps', 'symlink_data'], 'cwd': '/home/lx/rbi_2025/rov/rov_ws/build/direct_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lx', 'SSH_CLIENT': '10.148.86.157 49528 22', 'LC_TIME': 'es_CO.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/lx', 'OLDPWD': '/home/lx', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'es_CO.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/lx/rbi_2025/rov/rov_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'lx', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'es_CO.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'es_CO.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup:/home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller:/home/lx/rbi_2025/rov/rov_ws/install/direct_control:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_CO.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_CO.UTF-8', 'LC_IDENTIFICATION': 'es_CO.UTF-8', 'PWD': '/home/lx/rbi_2025/rov/rov_ws/build/direct_control', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.148.86.157 49528 10.148.86.37 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/lx/rbi_2025/rov/rov_ws/build/direct_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lx/rbi_2025/rov/rov_ws/install/direct_control/lib/python3.10/site-packages:/home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller/lib/python3.10/site-packages:/home/lx/rbi_2025/rov/rov_ws/install/direct_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_CO.UTF-8', 'LC_PAPER': 'es_CO.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup'}, 'shell': False}
+[5.861306] (-) TimerEvent: {}
+[5.964630] (-) TimerEvent: {}
+[6.066244] (-) TimerEvent: {}
+[6.168533] (-) TimerEvent: {}
+[6.270457] (-) TimerEvent: {}
+[6.373761] (-) TimerEvent: {}
+[6.437345] (rov_real_bringup) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[6.474104] (-) TimerEvent: {}
+[6.575498] (-) TimerEvent: {}
+[6.678080] (-) TimerEvent: {}
+[6.780229] (-) TimerEvent: {}
+[6.801964] (rov_real_bringup) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[6.883562] (-) TimerEvent: {}
+[6.984801] (-) TimerEvent: {}
+[7.086230] (-) TimerEvent: {}
+[7.186597] (rov_real_bringup) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[7.187198] (-) TimerEvent: {}
+[7.288804] (-) TimerEvent: {}
+[7.390572] (-) TimerEvent: {}
+[7.492199] (-) TimerEvent: {}
+[7.593685] (-) TimerEvent: {}
+[7.661826] (rov_real_bringup) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[7.693893] (-) TimerEvent: {}
+[7.695502] (rov_attitude_controller) StdoutLine: {'line': b'running develop\n'}
+[7.721245] (rov_real_bringup) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[7.752483] (direct_control) StdoutLine: {'line': b'running develop\n'}
+[7.792960] (rov_real_bringup) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[7.794049] (-) TimerEvent: {}
+[7.893257] (rov_real_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.894178] (-) TimerEvent: {}
+[7.995873] (-) TimerEvent: {}
+[8.026744] (rov_real_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.096058] (-) TimerEvent: {}
+[8.197641] (-) TimerEvent: {}
+[8.299177] (-) TimerEvent: {}
+[8.401020] (-) TimerEvent: {}
+[8.416967] (rov_real_bringup) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[8.445646] (rov_real_bringup) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[8.501482] (-) TimerEvent: {}
+[8.603083] (-) TimerEvent: {}
+[8.704262] (-) TimerEvent: {}
+[8.754288] (rov_attitude_controller) StdoutLine: {'line': b'running egg_info\n'}
+[8.755686] (rov_attitude_controller) StdoutLine: {'line': b'creating rov_attitude_controller.egg-info\n'}
+[8.756300] (rov_attitude_controller) StdoutLine: {'line': b'writing rov_attitude_controller.egg-info/PKG-INFO\n'}
+[8.758709] (rov_attitude_controller) StdoutLine: {'line': b'writing dependency_links to rov_attitude_controller.egg-info/dependency_links.txt\n'}
+[8.760593] (rov_attitude_controller) StdoutLine: {'line': b'writing entry points to rov_attitude_controller.egg-info/entry_points.txt\n'}
+[8.762435] (rov_attitude_controller) StdoutLine: {'line': b'writing requirements to rov_attitude_controller.egg-info/requires.txt\n'}
+[8.763910] (rov_attitude_controller) StdoutLine: {'line': b'writing top-level names to rov_attitude_controller.egg-info/top_level.txt\n'}
+[8.766214] (rov_attitude_controller) StdoutLine: {'line': b"writing manifest file 'rov_attitude_controller.egg-info/SOURCES.txt'\n"}
+[8.774177] (rov_attitude_controller) StdoutLine: {'line': b"reading manifest file 'rov_attitude_controller.egg-info/SOURCES.txt'\n"}
+[8.777148] (rov_attitude_controller) StdoutLine: {'line': b"writing manifest file 'rov_attitude_controller.egg-info/SOURCES.txt'\n"}
+[8.784229] (rov_attitude_controller) StdoutLine: {'line': b'running build_ext\n'}
+[8.785422] (rov_attitude_controller) StdoutLine: {'line': b'Creating /home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller/lib/python3.10/site-packages/rov-attitude-controller.egg-link (link to .)\n'}
+[8.790393] (rov_attitude_controller) StdoutLine: {'line': b'Installing rov_attitude_controller script to /home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller/lib/rov_attitude_controller\n'}
+[8.793517] (rov_attitude_controller) StdoutLine: {'line': b'\n'}
+[8.794636] (rov_attitude_controller) StdoutLine: {'line': b'Installed /home/lx/rbi_2025/rov/rov_ws/build/rov_attitude_controller\n'}
+[8.795908] (rov_attitude_controller) StdoutLine: {'line': b'running symlink_data\n'}
+[8.796637] (rov_attitude_controller) StdoutLine: {'line': b'creating /home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller/share/ament_index\n'}
+[8.797267] (rov_attitude_controller) StdoutLine: {'line': b'creating /home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller/share/ament_index/resource_index\n'}
+[8.798165] (rov_attitude_controller) StdoutLine: {'line': b'creating /home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller/share/ament_index/resource_index/packages\n'}
+[8.799285] (rov_attitude_controller) StdoutLine: {'line': b'symbolically linking /home/lx/rbi_2025/rov/rov_ws/build/rov_attitude_controller/resource/rov_attitude_controller -> /home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller/share/ament_index/resource_index/packages\n'}
+[8.800153] (rov_attitude_controller) StdoutLine: {'line': b'symbolically linking /home/lx/rbi_2025/rov/rov_ws/build/rov_attitude_controller/package.xml -> /home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller/share/rov_attitude_controller\n'}
+[8.801299] (rov_attitude_controller) StdoutLine: {'line': b'creating /home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller/share/rov_attitude_controller/launch\n'}
+[8.802780] (rov_attitude_controller) StdoutLine: {'line': b'creating /home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller/share/rov_attitude_controller/descriptions\n'}
+[8.804216] (rov_attitude_controller) StdoutLine: {'line': b'creating /home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller/share/rov_attitude_controller/config\n'}
+[8.805151] (-) TimerEvent: {}
+[8.833438] (direct_control) StdoutLine: {'line': b'running egg_info\n'}
+[8.834591] (direct_control) StdoutLine: {'line': b'creating direct_control.egg-info\n'}
+[8.836228] (direct_control) StdoutLine: {'line': b'writing direct_control.egg-info/PKG-INFO\n'}
+[8.841572] (direct_control) StdoutLine: {'line': b'writing dependency_links to direct_control.egg-info/dependency_links.txt\n'}
+[8.846987] (direct_control) StdoutLine: {'line': b'writing entry points to direct_control.egg-info/entry_points.txt\n'}
+[8.850231] (direct_control) StdoutLine: {'line': b'writing requirements to direct_control.egg-info/requires.txt\n'}
+[8.852860] (direct_control) StdoutLine: {'line': b'writing top-level names to direct_control.egg-info/top_level.txt\n'}
+[8.857708] (direct_control) StdoutLine: {'line': b"writing manifest file 'direct_control.egg-info/SOURCES.txt'\n"}
+[8.867887] (direct_control) StdoutLine: {'line': b"reading manifest file 'direct_control.egg-info/SOURCES.txt'\n"}
+[8.873328] (direct_control) StdoutLine: {'line': b"writing manifest file 'direct_control.egg-info/SOURCES.txt'\n"}
+[8.885982] (direct_control) StdoutLine: {'line': b'running build_ext\n'}
+[8.887347] (direct_control) StdoutLine: {'line': b'Creating /home/lx/rbi_2025/rov/rov_ws/install/direct_control/lib/python3.10/site-packages/direct-control.egg-link (link to .)\n'}
+[8.894246] (direct_control) StdoutLine: {'line': b'Installing direct_control script to /home/lx/rbi_2025/rov/rov_ws/install/direct_control/lib/direct_control\n'}
+[8.897656] (direct_control) StdoutLine: {'line': b'\n'}
+[8.899260] (direct_control) StdoutLine: {'line': b'Installed /home/lx/rbi_2025/rov/rov_ws/build/direct_control\n'}
+[8.900860] (direct_control) StdoutLine: {'line': b'running symlink_data\n'}
+[8.903112] (direct_control) StdoutLine: {'line': b'creating /home/lx/rbi_2025/rov/rov_ws/install/direct_control/share/ament_index\n'}
+[8.905666] (-) TimerEvent: {}
+[8.908669] (direct_control) StdoutLine: {'line': b'creating /home/lx/rbi_2025/rov/rov_ws/install/direct_control/share/ament_index/resource_index\n'}
+[8.910479] (direct_control) StdoutLine: {'line': b'creating /home/lx/rbi_2025/rov/rov_ws/install/direct_control/share/ament_index/resource_index/packages\n'}
+[8.911403] (direct_control) StdoutLine: {'line': b'symbolically linking /home/lx/rbi_2025/rov/rov_ws/build/direct_control/resource/direct_control -> /home/lx/rbi_2025/rov/rov_ws/install/direct_control/share/ament_index/resource_index/packages\n'}
+[8.912537] (direct_control) StdoutLine: {'line': b'symbolically linking /home/lx/rbi_2025/rov/rov_ws/build/direct_control/package.xml -> /home/lx/rbi_2025/rov/rov_ws/install/direct_control/share/direct_control\n'}
+[8.914677] (direct_control) StdoutLine: {'line': b'creating /home/lx/rbi_2025/rov/rov_ws/install/direct_control/share/direct_control/launch\n'}
+[8.916748] (direct_control) StdoutLine: {'line': b'symbolically linking /home/lx/rbi_2025/rov/rov_ws/build/direct_control/launch/raw_teleop_launch.launch.py -> /home/lx/rbi_2025/rov/rov_ws/install/direct_control/share/direct_control/launch\n'}
+[8.918699] (direct_control) StdoutLine: {'line': b'creating /home/lx/rbi_2025/rov/rov_ws/install/direct_control/share/direct_control/descriptions\n'}
+[8.920540] (direct_control) StdoutLine: {'line': b'creating /home/lx/rbi_2025/rov/rov_ws/install/direct_control/share/direct_control/config\n'}
+[8.922569] (direct_control) StdoutLine: {'line': b'symbolically linking /home/lx/rbi_2025/rov/rov_ws/build/direct_control/config/joystick.yaml -> /home/lx/rbi_2025/rov/rov_ws/install/direct_control/share/direct_control/config\n'}
+[8.924427] (direct_control) StdoutLine: {'line': b'symbolically linking /home/lx/rbi_2025/rov/rov_ws/build/direct_control/config/mux.yaml -> /home/lx/rbi_2025/rov/rov_ws/install/direct_control/share/direct_control/config\n'}
+[9.006222] (-) TimerEvent: {}
+[9.079109] (rov_attitude_controller) CommandEnded: {'returncode': 0}
+[9.106567] (-) TimerEvent: {}
+[9.184793] (rov_attitude_controller) JobEnded: {'identifier': 'rov_attitude_controller', 'rc': 0}
+[9.187922] (rov_real_bringup) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[9.190760] (direct_control) CommandEnded: {'returncode': 0}
+[9.207322] (-) TimerEvent: {}
+[9.228289] (direct_control) JobEnded: {'identifier': 'direct_control', 'rc': 0}
+[9.307514] (-) TimerEvent: {}
+[9.408195] (-) TimerEvent: {}
+[9.418225] (rov_real_bringup) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[9.508351] (-) TimerEvent: {}
+[9.608991] (-) TimerEvent: {}
+[9.709635] (-) TimerEvent: {}
+[9.784108] (rov_real_bringup) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[9.809807] (-) TimerEvent: {}
+[9.870056] (rov_real_bringup) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[9.910040] (-) TimerEvent: {}
+[10.010897] (-) TimerEvent: {}
+[10.111601] (-) TimerEvent: {}
+[10.212276] (-) TimerEvent: {}
+[10.213381] (rov_real_bringup) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[10.215975] (rov_real_bringup) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[10.312545] (-) TimerEvent: {}
+[10.413420] (-) TimerEvent: {}
+[10.514321] (-) TimerEvent: {}
+[10.573809] (rov_real_bringup) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[10.578513] (rov_real_bringup) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[10.614495] (-) TimerEvent: {}
+[10.715200] (-) TimerEvent: {}
+[10.815899] (-) TimerEvent: {}
+[10.916564] (-) TimerEvent: {}
+[11.017213] (-) TimerEvent: {}
+[11.118095] (-) TimerEvent: {}
+[11.162346] (rov_real_bringup) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.197749] (rov_real_bringup) StdoutLine: {'line': b'-- Generating done\n'}
+[11.207493] (rov_real_bringup) StdoutLine: {'line': b'-- Build files have been written to: /home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup\n'}
+[11.218276] (-) TimerEvent: {}
+[11.241995] (rov_real_bringup) CommandEnded: {'returncode': 0}
+[11.243751] (rov_real_bringup) JobProgress: {'identifier': 'rov_real_bringup', 'progress': 'build'}
+[11.246129] (rov_real_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup', '--', '-j4', '-l4'], 'cwd': '/home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lx'), ('SSH_CLIENT', '10.148.86.157 49528 22'), ('LC_TIME', 'es_CO.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/lx'), ('OLDPWD', '/home/lx'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'es_CO.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/lx/rbi_2025/rov/rov_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lx'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup:/home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller:/home/lx/rbi_2025/rov/rov_ws/install/direct_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('PWD', '/home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.148.86.157 49528 10.148.86.37 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller/lib/python3.10/site-packages:/home/lx/rbi_2025/rov/rov_ws/install/direct_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup:/home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller:/home/lx/rbi_2025/rov/rov_ws/install/direct_control:/opt/ros/humble')]), 'shell': False}
+[11.318473] (-) TimerEvent: {}
+[11.414074] (rov_real_bringup) CommandEnded: {'returncode': 0}
+[11.416571] (rov_real_bringup) JobProgress: {'identifier': 'rov_real_bringup', 'progress': 'install'}
+[11.419101] (-) TimerEvent: {}
+[11.447431] (rov_real_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup'], 'cwd': '/home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lx'), ('SSH_CLIENT', '10.148.86.157 49528 22'), ('LC_TIME', 'es_CO.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/lx'), ('OLDPWD', '/home/lx'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'es_CO.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/lx/rbi_2025/rov/rov_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lx'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup:/home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller:/home/lx/rbi_2025/rov/rov_ws/install/direct_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('PWD', '/home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.148.86.157 49528 10.148.86.37 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller/lib/python3.10/site-packages:/home/lx/rbi_2025/rov/rov_ws/install/direct_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup:/home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller:/home/lx/rbi_2025/rov/rov_ws/install/direct_control:/opt/ros/humble')]), 'shell': False}
+[11.481473] (rov_real_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.483350] (rov_real_bringup) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[11.485809] (rov_real_bringup) StdoutLine: {'line': b'-- Symlinking: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup//config/rov_controllers.yaml\n'}
+[11.519319] (-) TimerEvent: {}
+[11.520395] (rov_real_bringup) StdoutLine: {'line': b'-- Symlinking: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup//config/rviz_config.rviz\n'}
+[11.555820] (rov_real_bringup) StdoutLine: {'line': b'-- Symlinking: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup//launch/rov_bringup_launch.launch.xml\n'}
+[11.588963] (rov_real_bringup) StdoutLine: {'line': b'-- Symlinking: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/ament_index/resource_index/package_run_dependencies/rov_real_bringup\n'}
+[11.619593] (-) TimerEvent: {}
+[11.622085] (rov_real_bringup) StdoutLine: {'line': b'-- Symlinking: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/ament_index/resource_index/parent_prefix_path/rov_real_bringup\n'}
+[11.654756] (rov_real_bringup) StdoutLine: {'line': b'-- Symlinking: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/environment/ament_prefix_path.sh\n'}
+[11.687358] (rov_real_bringup) StdoutLine: {'line': b'-- Symlinking: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/environment/ament_prefix_path.dsv\n'}
+[11.718937] (rov_real_bringup) StdoutLine: {'line': b'-- Symlinking: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/environment/path.sh\n'}
+[11.719686] (-) TimerEvent: {}
+[11.752134] (rov_real_bringup) StdoutLine: {'line': b'-- Symlinking: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/environment/path.dsv\n'}
+[11.784174] (rov_real_bringup) StdoutLine: {'line': b'-- Symlinking: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/local_setup.bash\n'}
+[11.815546] (rov_real_bringup) StdoutLine: {'line': b'-- Symlinking: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/local_setup.sh\n'}
+[11.819878] (-) TimerEvent: {}
+[11.848095] (rov_real_bringup) StdoutLine: {'line': b'-- Symlinking: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/local_setup.zsh\n'}
+[11.882021] (rov_real_bringup) StdoutLine: {'line': b'-- Symlinking: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/local_setup.dsv\n'}
+[11.914469] (rov_real_bringup) StdoutLine: {'line': b'-- Symlinking: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/package.dsv\n'}
+[11.920078] (-) TimerEvent: {}
+[11.947674] (rov_real_bringup) StdoutLine: {'line': b'-- Symlinking: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/ament_index/resource_index/packages/rov_real_bringup\n'}
+[11.980715] (rov_real_bringup) StdoutLine: {'line': b'-- Symlinking: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/cmake/rov_real_bringupConfig.cmake\n'}
+[12.012626] (rov_real_bringup) StdoutLine: {'line': b'-- Symlinking: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/cmake/rov_real_bringupConfig-version.cmake\n'}
+[12.020263] (-) TimerEvent: {}
+[12.045563] (rov_real_bringup) StdoutLine: {'line': b'-- Symlinking: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/package.xml\n'}
+[12.083160] (rov_real_bringup) CommandEnded: {'returncode': 0}
+[12.120692] (-) TimerEvent: {}
+[12.141495] (rov_real_bringup) JobEnded: {'identifier': 'rov_real_bringup', 'rc': 0}
+[12.144462] (-) EventReactorShutdown: {}

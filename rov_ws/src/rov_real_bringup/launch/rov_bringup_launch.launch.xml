@@ -1,0 +1,11 @@
+<launch>
+
+ 
+    <!--! Path following stuff -->
+    <!-- <node pkg="mavros" exec="mavros_node">
+        <param name="fcu_url" value="/dev/ttyACM0:921600"/>
+    </node> -->
+    <node pkg="rov_attitude_controller" exec="rov_attitude_controller"/>
+    <node pkg="direct_control" exec="direct_control"/>
+
+</launch>

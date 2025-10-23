@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing rov_attitude_controller.egg-info/PKG-INFO
+writing dependency_links to rov_attitude_controller.egg-info/dependency_links.txt
+writing entry points to rov_attitude_controller.egg-info/entry_points.txt
+writing requirements to rov_attitude_controller.egg-info/requires.txt
+writing top-level names to rov_attitude_controller.egg-info/top_level.txt
+reading manifest file 'rov_attitude_controller.egg-info/SOURCES.txt'
+writing manifest file 'rov_attitude_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller/lib/python3.10/site-packages/rov-attitude-controller.egg-link (link to .)
+Installing rov_attitude_controller script to /home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller/lib/rov_attitude_controller
+
+Installed /home/lx/rbi_2025/rov/rov_ws/build/rov_attitude_controller
+running symlink_data

@@ -1,0 +1,60 @@
+[2.962s] Invoking command in '/home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller:/home/lx/rbi_2025/rov/rov_ws/install/direct_control:/opt/ros/humble /usr/bin/cmake /home/lx/rbi_2025/rov/rov_ws/src/rov_real_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup
+[3.410s] -- The C compiler identification is GNU 11.4.0
+[4.048s] -- The CXX compiler identification is GNU 11.4.0
+[4.085s] -- Detecting C compiler ABI info
+[4.488s] -- Detecting C compiler ABI info - done
+[4.526s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.530s] -- Detecting C compile features
+[4.534s] -- Detecting C compile features - done
+[4.557s] -- Detecting CXX compiler ABI info
+[5.112s] -- Detecting CXX compiler ABI info - done
+[5.139s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.143s] -- Detecting CXX compile features
+[5.151s] -- Detecting CXX compile features - done
+[5.226s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.372s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.737s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.121s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[7.597s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[7.656s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.728s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[7.828s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.962s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.352s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.381s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[9.125s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[9.353s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.719s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.805s] -- Looking for pthread.h
+[10.148s] -- Looking for pthread.h - found
+[10.151s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.509s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[10.513s] -- Found Threads: TRUE  
+[11.097s] -- Configuring done
+[11.133s] -- Generating done
+[11.142s] -- Build files have been written to: /home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup
+[11.177s] Invoked command in '/home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller:/home/lx/rbi_2025/rov/rov_ws/install/direct_control:/opt/ros/humble /usr/bin/cmake /home/lx/rbi_2025/rov/rov_ws/src/rov_real_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup
+[11.186s] Invoking command in '/home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller:/home/lx/rbi_2025/rov/rov_ws/install/direct_control:/opt/ros/humble /usr/bin/cmake --build /home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup -- -j4 -l4
+[11.349s] Invoked command in '/home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller:/home/lx/rbi_2025/rov/rov_ws/install/direct_control:/opt/ros/humble /usr/bin/cmake --build /home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup -- -j4 -l4
+[11.388s] Invoking command in '/home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller:/home/lx/rbi_2025/rov/rov_ws/install/direct_control:/opt/ros/humble /usr/bin/cmake --install /home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup
+[11.416s] -- Install configuration: ""
+[11.418s] -- Execute custom install script
+[11.421s] -- Symlinking: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup//config/rov_controllers.yaml
+[11.455s] -- Symlinking: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup//config/rviz_config.rviz
+[11.491s] -- Symlinking: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup//launch/rov_bringup_launch.launch.xml
+[11.524s] -- Symlinking: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/ament_index/resource_index/package_run_dependencies/rov_real_bringup
+[11.557s] -- Symlinking: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/ament_index/resource_index/parent_prefix_path/rov_real_bringup
+[11.590s] -- Symlinking: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/environment/ament_prefix_path.sh
+[11.622s] -- Symlinking: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/environment/ament_prefix_path.dsv
+[11.654s] -- Symlinking: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/environment/path.sh
+[11.687s] -- Symlinking: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/environment/path.dsv
+[11.719s] -- Symlinking: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/local_setup.bash
+[11.750s] -- Symlinking: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/local_setup.sh
+[11.783s] -- Symlinking: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/local_setup.zsh
+[11.817s] -- Symlinking: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/local_setup.dsv
+[11.849s] -- Symlinking: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/package.dsv
+[11.882s] -- Symlinking: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/ament_index/resource_index/packages/rov_real_bringup
+[11.916s] -- Symlinking: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/cmake/rov_real_bringupConfig.cmake
+[11.947s] -- Symlinking: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/cmake/rov_real_bringupConfig-version.cmake
+[11.980s] -- Symlinking: /home/lx/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/package.xml
+[12.020s] Invoked command in '/home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller:/home/lx/rbi_2025/rov/rov_ws/install/direct_control:/opt/ros/humble /usr/bin/cmake --install /home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup

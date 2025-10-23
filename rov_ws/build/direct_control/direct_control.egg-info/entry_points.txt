@@ -1,0 +1,3 @@
+[console_scripts]
+direct_control = direct_control.direct_control:main
+

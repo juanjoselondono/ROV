@@ -1,0 +1,9 @@
+/home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup/CMakeFiles/uninstall.dir
+/home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup/CMakeFiles/rov_real_bringup_uninstall.dir
+/home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup/CMakeFiles/test.dir
+/home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup/CMakeFiles/edit_cache.dir
+/home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup/CMakeFiles/rebuild_cache.dir
+/home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup/CMakeFiles/list_install_components.dir
+/home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup/CMakeFiles/install.dir
+/home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup/CMakeFiles/install/local.dir
+/home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup/CMakeFiles/install/strip.dir

@@ -1,0 +1,4 @@
+Invoking command in '/home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup': /usr/bin/cmake --build /home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup -- -j4 -l4
+Invoked command in '/home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup' returned '0': /usr/bin/cmake --build /home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup -- -j4 -l4
+Invoking command in '/home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup': /usr/bin/cmake --install /home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup
+Invoked command in '/home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup' returned '0': /usr/bin/cmake --install /home/lx/rbi_2025/rov/rov_ws/build/rov_real_bringup

@@ -1,0 +1,25 @@
+running develop
+running egg_info
+creating rov_attitude_controller.egg-info
+writing rov_attitude_controller.egg-info/PKG-INFO
+writing dependency_links to rov_attitude_controller.egg-info/dependency_links.txt
+writing entry points to rov_attitude_controller.egg-info/entry_points.txt
+writing requirements to rov_attitude_controller.egg-info/requires.txt
+writing top-level names to rov_attitude_controller.egg-info/top_level.txt
+writing manifest file 'rov_attitude_controller.egg-info/SOURCES.txt'
+reading manifest file 'rov_attitude_controller.egg-info/SOURCES.txt'
+writing manifest file 'rov_attitude_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller/lib/python3.10/site-packages/rov-attitude-controller.egg-link (link to .)
+Installing rov_attitude_controller script to /home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller/lib/rov_attitude_controller
+
+Installed /home/lx/rbi_2025/rov/rov_ws/build/rov_attitude_controller
+running symlink_data
+creating /home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller/share/ament_index
+creating /home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller/share/ament_index/resource_index
+creating /home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller/share/ament_index/resource_index/packages
+symbolically linking /home/lx/rbi_2025/rov/rov_ws/build/rov_attitude_controller/resource/rov_attitude_controller -> /home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller/share/ament_index/resource_index/packages
+symbolically linking /home/lx/rbi_2025/rov/rov_ws/build/rov_attitude_controller/package.xml -> /home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller/share/rov_attitude_controller
+creating /home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller/share/rov_attitude_controller/launch
+creating /home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller/share/rov_attitude_controller/descriptions
+creating /home/lx/rbi_2025/rov/rov_ws/install/rov_attitude_controller/share/rov_attitude_controller/config

@@ -1,0 +1,28 @@
+running develop
+running egg_info
+creating direct_control.egg-info
+writing direct_control.egg-info/PKG-INFO
+writing dependency_links to direct_control.egg-info/dependency_links.txt
+writing entry points to direct_control.egg-info/entry_points.txt
+writing requirements to direct_control.egg-info/requires.txt
+writing top-level names to direct_control.egg-info/top_level.txt
+writing manifest file 'direct_control.egg-info/SOURCES.txt'
+reading manifest file 'direct_control.egg-info/SOURCES.txt'
+writing manifest file 'direct_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/lx/rbi_2025/rov/rov_ws/install/direct_control/lib/python3.10/site-packages/direct-control.egg-link (link to .)
+Installing direct_control script to /home/lx/rbi_2025/rov/rov_ws/install/direct_control/lib/direct_control
+
+Installed /home/lx/rbi_2025/rov/rov_ws/build/direct_control
+running symlink_data
+creating /home/lx/rbi_2025/rov/rov_ws/install/direct_control/share/ament_index
+creating /home/lx/rbi_2025/rov/rov_ws/install/direct_control/share/ament_index/resource_index
+creating /home/lx/rbi_2025/rov/rov_ws/install/direct_control/share/ament_index/resource_index/packages
+symbolically linking /home/lx/rbi_2025/rov/rov_ws/build/direct_control/resource/direct_control -> /home/lx/rbi_2025/rov/rov_ws/install/direct_control/share/ament_index/resource_index/packages
+symbolically linking /home/lx/rbi_2025/rov/rov_ws/build/direct_control/package.xml -> /home/lx/rbi_2025/rov/rov_ws/install/direct_control/share/direct_control
+creating /home/lx/rbi_2025/rov/rov_ws/install/direct_control/share/direct_control/launch
+symbolically linking /home/lx/rbi_2025/rov/rov_ws/build/direct_control/launch/raw_teleop_launch.launch.py -> /home/lx/rbi_2025/rov/rov_ws/install/direct_control/share/direct_control/launch
+creating /home/lx/rbi_2025/rov/rov_ws/install/direct_control/share/direct_control/descriptions
+creating /home/lx/rbi_2025/rov/rov_ws/install/direct_control/share/direct_control/config
+symbolically linking /home/lx/rbi_2025/rov/rov_ws/build/direct_control/config/joystick.yaml -> /home/lx/rbi_2025/rov/rov_ws/install/direct_control/share/direct_control/config
+symbolically linking /home/lx/rbi_2025/rov/rov_ws/build/direct_control/config/mux.yaml -> /home/lx/rbi_2025/rov/rov_ws/install/direct_control/share/direct_control/config
