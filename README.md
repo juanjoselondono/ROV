@@ -1,7 +1,7 @@
 # Remotely Operated Underwater Vehicle  (ROV)
 
 <p align="center">
-<img src="docs/images/auv_render.png" width="900">
+<img src="docs/images/portrait.png" width="900">
 </p>
 
 <p align="center">
@@ -67,7 +67,7 @@ ROS2 provides:
 # Mechanical Design
 
 <p align="center">
-<img src="docs/images/mechanical_design.png" width="900">
+<img src="docs/images/realROV.jpeg" width="900">
 </p>
 
 The vehicle features a pressure-resistant modular frame optimized for underwater operation.
@@ -87,11 +87,9 @@ The mechanical design was created entirely in CAD, allowing rapid prototyping an
 
 # CAD Models
 
-The complete mechanical design is available inside:
+The complete mechanical design is available in:
 
-```
-docs/CAD/
-```
+![3D ROV Model Assembly](https://cad.onshape.com/documents/d34e95e43341a49a86e8f73f/w/ca83666431e9f7346375e8f2/e/168e48e770f021cd6aa30697)
 
 Including:
 
