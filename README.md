@@ -1,7 +1,7 @@
 # Remotely Operated Underwater Vehicle  (ROV)
 
 <p align="center">
-<img src="docs/images/portrait.png" width="900">
+<img src="docs/images/ROVPortrait.png" width="900">
 </p>
 
 <p align="center">
@@ -102,17 +102,12 @@ Including:
 
 # Electronics
 
-<p align="center">
-<img src="docs/images/electronics.png" width="900">
-</p>
-
 The onboard electronics include:
 
-- Flight computer
-- Embedded controller
+- Pixhawk Controller
+- Embedded STM32 controller
 - IMU
 - Pressure sensor
-- Leak detection system
 - Power management
 - ESCs
 - Thruster drivers
@@ -136,10 +131,6 @@ The onboard electronics include:
 
 # Simulation
 
-<p align="center">
-<img src="docs/images/simulation.png" width="900">
-</p>
-
 Before deployment, the robot can be tested in simulation using Gazebo and RViz2.
 
 Simulation enables:
@@ -150,39 +141,12 @@ Simulation enables:
 - Mission development
 - System integration
 
----
-
-# Repository Structure
-
-```
-.
-├── config/
-├── docs/
-│   ├── images/
-│   └── CAD/
-├── launch/
-├── meshes/
-├── src/
-├── urdf/
-├── worlds/
-└── README.md
-```
 
 ---
 
 # Installation
 
 Clone the repository
-
-```bash
-git clone https://github.com/yourusername/auv.git
-```
-
-Move into the workspace
-
-```bash
-cd auv_ws
-```
 
 Build
 
@@ -213,19 +177,6 @@ ros2 launch auv bringup.launch.py
 - Path planning
 - Multi-robot communication
 - Acoustic localization
-
----
-
-# Gallery
-
-| Prototype | Mechanical Design |
-|------------|------------------|
-| ![](docs/images/auv_render.png) | ![](docs/images/mechanical_design.png) |
-
-| Electronics | Simulation |
-|------------|-------------|
-| ![](docs/images/electronics.png) | ![](docs/images/simulation.png) |
-
 ---
 
 # Project Status
