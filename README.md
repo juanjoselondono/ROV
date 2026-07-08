@@ -1,4 +1,4 @@
-# Remotely Operated Underwater Vehicle  (ROV)
+# Remotely  Operated Underwater Vehicle  (ROV)
 
 <p align="center">
 <img src="docs/images/ROVPortrait.png" width="900">
