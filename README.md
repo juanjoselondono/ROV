@@ -89,7 +89,7 @@ The mechanical design was created entirely in CAD, allowing rapid prototyping an
 
 The complete mechanical design is available in:
 
-![3D ROV Model Assembly](https://cad.onshape.com/documents/d34e95e43341a49a86e8f73f/w/ca83666431e9f7346375e8f2/e/168e48e770f021cd6aa30697)
+<a href="[https://www.example.com](https://cad.onshape.com/documents/d34e95e43341a49a86e8f73f/w/ca83666431e9f7346375e8f2/e/168e48e770f021cd6aa30697)">3D ROV Model Assembly</a>
 
 Including:
 
