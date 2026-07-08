@@ -40,7 +40,7 @@ The project has been developed with scalability in mind, allowing the integratio
 # System Architecture
 
 <p align="center">
-<img src="docs/images/ros2_graph.png" width="900">
+<img src="docs/images/Electronics.png" width="900">
 </p>
 
 The software is built on **ROS2**, enabling communication between independent nodes responsible for:
